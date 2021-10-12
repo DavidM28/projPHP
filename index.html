@@ -1,169 +1,110 @@
 <!DOCTYPE html>
-<html lang="utf-8"> 
- <head>
-	<!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Lai Moda Fitness</title>
+    </head>
+    <body>
+        <header class="container-fluid">
+          <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1.jpg" class="d-block w-300" " alt="Mulher na Academia Firme&Forte">
+              </div>
+            </div>
+        </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-green bg-secondary sticky-top p-3">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#">Moda Fitness</a>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#principal">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quemsomos.html">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cadCliente.html">Cadastro de Clientes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="roupas.html">Roupas
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contato.html">Contato</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <main class="container-fluid">
+            <section id="quemsomos" class="row justify-content-center text-center" style="background-image:no repeat url(img/1.jpg) ;">
+              <div class="col-lg-9 col-sm-12 text-light align-items-center">
+                  <h2 class="display-1 pt-1 escrita-mao">Onde o corpo cansa a mente  descança!!!</h2>
+                  <small class="small"> a roupa seu estilo para seu treino!!!</small>
+                    <div class="mt-5">
+                      <h4 class="bg-dark rounded p-5">
+                          A Lai moda Fitness há 2 anos no mercado de roupas e produtos fitness para vender e proporcionar um melhor treino 
+                          , cadastre-se no nosso <em>Cadasto de Clientes</em> para uma roupa personalizada, momentos agradáveis
+                          de suor.
+                      </h4>
+                        <br>
+                        <a href="cadCliente.html" class="btn btn-dark btn-lg mb-5">cadastre-se aqui</a>
+                    </div>
+              </div>
+            </section>  
+            <section id="clubetraca">
+                <h2> </h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="img/2.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Moda Fitness</h5>
+                        <p class="card-text">As melhores roupas com  tecnologia e acabanmento impecável  .</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="img/suple2.jpeg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">Produtos e Suplementos</h5>
+                        <p class="card-text">A energia a mais para você não parar durante o treino.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="img/3.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Roupas Personalizadas</h5>
+                        <p class="card-text">Deixe suas roupas de treino com sua cara.</p>
+                        <p class="card-text">Personalize já suas peças.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section id="contato" >
+                <h2>Contato</h2>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-	<script src="https://kit.fontawesome.com/e4f5e172d0.js" crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-	<title>FINANS - Finanças Pessoais</title>
- </head>
-	<body>
-
-
-		<header>
-			<nav class="navbar navbar-expand-sm bg-warning navbar-light ms-auto">
-
-			  <div class="container">	
-				<a  class="navbar-brand" href="#"> 
-					<img src="img/logo.png">
-				</a>
-
-
-				<button class="navbar-togler" type="button" data-bs-toglle="collapse" data-bs-target="#nav-principal" aria-controls="nav-principal" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span>
-				</button>
-
-
-					<div id="nav-principal" class="collapse navbar-collapse">
-					<ul class="navbar-nav" ms-auto>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Home</a></li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Recursos</a></li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Benefícios</a></li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Preços</a></li>
-						<li class="nav-item">
-							<a class="btn btn-outline-light ms-5" href="#">Entrar</a></li>	
-					</ul> 
-				</div> <!--fim da div navegação -->
-				</div> <!--fim da div container -->
-
-			</nav>
-
-		</header>
-		<section class="bg-warning text-white" >
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 align-self-center">
-					<h1 class="display-3">Suas contas, descomplicadas</h1>
-					<p>Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.</p>
-					<div class="input-group mb-3">
-					  <input type="text" class="form-control" placeholder="Seu Email" aria-label="Seu E-mail" aria-describedby="basic-addon2" ><button class="btn btn-primary" type="button" id="button-addon2">Cadastre-se</button>
-					</div> <!--fim da div botão -->
-					<p>
-						Disponível para:
-						<a href="" class="btn btn-outline-light"><i class="fab fa-android"></i>
-						</a>
-
-						<a href="" class="btn btn-outline-light"><i class="fab fa-apple"></i>
-						</a>
-					</p>
-
-					</div><!--fim da div texto -->
-					
-					<div class="col-md-6" d-nome d-md-block>
-					<img src="img/capa-mulher.png">
-					</div><!--fim da div imagem -->
-				</div> <!--fim da div row -->
-			</div><!--fim da div container -->
-		</section><!--fim da sessão1 -->
-		
-		<section class="caixa">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 align-self-center" >
-						<h2>Saiba para onde vai o seu dinheiro</h2>
-						 <p>Com o Finans, você categoriza todos os seus lançamentos, com gráficos simples, você sabe para vem e para onde vai o seu dinheiro.</p>
-						 <a href="" class="btn btn-primary">Veja mais</a>
-
-					</div><!--fim da div texto -->
-
-					<div class="col-md-6">
-						<img  class="img-fluid" src="img/saiba.png">
-						
-					</div><!--fim da div imagem -->
-				</div><!--fim da div row -->
-			</div><!--fim da div container -->
-		</section><!--fim da sessão2 -->
-
-		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6" >
-					
-						<img  class="img-fluid" src="img/juros.png">
-						
-					</div><!--fim da div imagem -->
-
-					<div class="col-md-6 align-self-center" >
-							<h2> Pare de pagar Juros e economize </h2>
-							<p>Mantesr as contas em dia é sempre um problema? O Finans avisa você: receba alerta de contas a pagar e a receber.</p>
-						 <a href="" class="btn btn-primary">Veja mais</a>
-						
-					</div><!--fim da div texto -->
-				</div><!--fim da div row -->
-			</div><!--fim da div container -->
-		</section><!--fim da sessão3 -->
-
-		<section>
-				<div class="container">
-				<div class="row">
-					<div class="col-md-4" >
-					
-						<img  class="img-fluid" src="img/facil.png">
-						<h2> Fácil de usar </h2>
-							<p>O Finans vai além do básico e permite você faça controles incríveis, essenciais para suas finanças. Simples como tem que ser.</p>
-					</div><!--fim da div 1 -->
-
-					<div class="col-md-4" >
-							<img  class="img-fluid" src="img/economize.png">
-						<h2> Economize tempo </h2>
-							<p>Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveita sem tempo com o que realmente importa para você!</p>
-					</div><!--fim da div 2 -->
-
-					<div class="col-md-4">
-						<img  class="img-fluid" src="img/suporte.png">
-						<h2> Suporte amigo </h2>
-							<p>Dúvidas? Perguntas? Nosso suporte legal ajuda você! A gente tá aqui para resolver seus problemas e deixar sua vida bem mais fácil!</p>
-					</div><!--fim da div 3 -->
-				</div><!--fim da div row -->
-			</div><!--fim da div container -->
-		</section><!--fim da sessão4 -->
-
-		<footer class="">
-			<div  class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<p>
-							<a href="home">Home</a>
-							<a href="rec">Recursos</a>
-							<a href="ben">Beneficios</a>
-							<a href="pre">Preços</a>
-
-						</p>
-
-					</div>
-					<div class="col-md-2">
-						<a href="facebook" class="btn btn-outline-dark">
-							<i class="fa-brands fa-facebook"></i>
-								
-						<a href="twiter" class="btn btn-outline-dark">
-							<i class="fa-brands fa-twitter"></i>
-
-					</div>
-				</div> <!--fim da div row -->
-			</div><!--fim da div container -->
-		</footer>
-
-	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-	</body>
+            </section>
+        </main>
+        <footer>
+            <h6>Lai Moda Fitness&copy;2021</h6>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    </body>
 </html>
